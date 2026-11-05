@@ -119,6 +119,8 @@ USE_I18N = True
 
 USE_TZ = True
 
+OPENAI_APIKEY=config('OPENAI_APIKEY')
+OPENAI_MODEL=config('OPENAI_MODEL')
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/6.1/howto/static-files/
